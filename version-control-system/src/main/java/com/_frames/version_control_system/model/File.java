@@ -26,7 +26,7 @@ public class File {
     @Lob
     private String content;
     @Version
-    private Integer version;
+    private Integer version; //to handle concurrency
 
     private LocalDateTime timestamp;
 
