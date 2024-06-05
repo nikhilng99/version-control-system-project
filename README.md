@@ -2,6 +2,11 @@
 
 The project has been implemented using Spring Boot, Docker, PostGres SQL. Postman can be used to test the same.
 
+Steps to run the project:
+  1. Run mvn clean package -DskipTests on the project
+  2. Run docker-compose up --build to start the docker containers
+  3. Run the VersionControlSystemApplication.java
+
 Design:
 Controller
   1. FileController.java
