@@ -1,0 +1,18 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8µ¢·¼ş1J$8f2efc92-cb79-4226-87df-a33ad464c95c
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¶¢·¼ş1J$9b1e00b5-c4c2-4074-a319-339c8686a591
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¶¢·¼ş1J$391b2156-116a-41de-b3ed-77fad98dd2d0
+p
+java:S1172"-Remove this unused method parameter "userId".(íà…8¶¢·¼ş1J$4464c98e-e54e-44b4-97b5-2cdd0d175ee5
+r	java:S106$"+Replace this use of System.out by a logger.(¼Úöıúÿÿÿÿ8¶¢·¼ş1J$4aa909ec-5597-4694-a3ff-6d89e438fccb
+|
+java:S3400^"9Remove this method and declare a constant for this value.(çà´ù8¶¢·¼ş1J$7a94caed-c2b5-4239-a6aa-3b972a625e34
+„
+java:S1172\"ARemove these unused method parameters "oldContent", "newContent".(¤ã¾8¶¢·¼ş1J$74d4161a-8a9b-4550-9599-4189b235380a
+|
+java:S3400c"9Remove this method and declare a constant for this value.(²„Ğ²8¶¢·¼ş1J$2e3540f6-8845-4550-9fb5-1e5985d3f00f
+–
+java:S1172a"SRemove these unused method parameters "baseContent", "latestContent", "newContent".(şÒ¸ 8¶¢·¼ş1J$36d5d825-aba1-43d0-887b-9cce159f8e74
