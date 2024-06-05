@@ -1,6 +1,9 @@
-3Frames Assignment Project
+# 3Frames Assignment Project
+### Problem Statement:
+### TASK 1.
+Implement a version control file system similar to (Git), but unlike Git, which may be used offline. This version control file system will be available only online. Maintain strong concurrency and read capability. The number of concurrent hits on read will be greater than on write, hence write should not obstruct read during concurrent operations. Write APIs to display files, file folder operations, diffs, conflicts, and merges! Please include folders as part of the version control system. We can ignore binary files for the time being.
 
-The project has been implemented using Spring Boot, Docker, PostGres SQL. Postman was used to validate the APIs.
+## The project has been implemented using Spring Boot, Docker, PostGres SQL. Postman was used to validate the APIs.
 
 # Steps to run the project:
 1. Run ```mvn clean package -DskipTests``` on the project
