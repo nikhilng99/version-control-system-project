@@ -1,0 +1,9 @@
+com\_frames\version_control_system\service\FolderService.class
+com\_frames\version_control_system\model\File.class
+com\_frames\version_control_system\controller\FolderController.class
+com\_frames\version_control_system\VersionControlSystemApplication.class
+com\_frames\version_control_system\dao\FolderRepository.class
+com\_frames\version_control_system\model\Folder.class
+com\_frames\version_control_system\service\FileService.class
+com\_frames\version_control_system\controller\FileController.class
+com\_frames\version_control_system\dao\FileRepository.class

@@ -7,40 +7,43 @@ import java.time.LocalDateTime;
 public class File {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long fileId;
-    private String fileName;
-    private String fileContent;
-    private Integer fileVersion;
-    private LocalDateTime timestamp;
+    private Long id;
 
-    @ManyToOne
-    private Folder folder;
+    private String name;
 
     public Folder getFolder() {
         return folder;
     }
 
+    public void setFolder(Folder folder) {
+        this.folder = folder;
+    }
+
     @ManyToOne
-    private User user;
+    @JoinColumn(name = "folder_id")
+    private Folder folder;
 
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
+    @Lob
+    private String content;
+    @Version
+    private Integer version;
+
+    private LocalDateTime timestamp;
+
+    public String getName() {
+        return name;
     }
 
-    public String getFileContent() {
-        return fileContent;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setFileContent(String fileContent) {
-        this.fileContent = fileContent;
+    public String getContent() {
+        return content;
     }
 
-    public Integer getFileVersion() {
-        return fileVersion;
-    }
-
-    public void setFileVersion(Integer fileVersion) {
-        this.fileVersion = fileVersion;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public LocalDateTime getTimestamp() {
@@ -51,8 +54,16 @@ public class File {
         this.timestamp = timestamp;
     }
 
-    public void setFolder(Folder folder) {
-        this.folder=folder;
+    public File() {
+        this.timestamp = LocalDateTime.now();
+    }
+
+    public Integer getVersion() {
+        return version;
+    }
+
+    public void setVersion(Integer version) {
+        this.version = version;
     }
 }
 
